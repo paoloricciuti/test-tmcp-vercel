@@ -13,6 +13,7 @@ export function GET() {
 			headers: {
 				'Content-Type': 'text/event-stream',
 				'Cache-Control': 'no-cache',
+				'Access-Control-Allow-Origin': '*',
 				Connection: 'keep-alive',
 			},
 		}
