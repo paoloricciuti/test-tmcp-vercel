@@ -19,7 +19,7 @@ const server = new McpServer(
 );
 
 const transport = new HttpTransport(server, {
-	path: '/test',
+	path: '/api/test',
 });
 
 async function request_or_404(request) {
