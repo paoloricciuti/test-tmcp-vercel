@@ -1,0 +1,20 @@
+{
+  "name": "vercel-function-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.12.4",
+  "type": "module",
+  "dependencies": {
+    "@tmcp/adapter-valibot": "^0.1.2",
+    "@tmcp/transport-http": "^0.2.0",
+    "tmcp": "^1.7.0",
+    "valibot": "^1.1.0"
+  }
+}
