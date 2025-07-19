@@ -5,7 +5,7 @@ export function GET() {
 			start(controller) {
 				setInterval(() => {
 					controller.enqueue(`data: ${i++}\n\n`);
-				});
+				}, 1000);
 			},
 		}),
 		{
