@@ -20,6 +20,7 @@ const server = new McpServer(
 
 const transport = new HttpTransport(server, {
 	path: '/api/test',
+	getSessionId: () => crypto.randomUUID(),
 });
 
 async function request_or_404(request) {
